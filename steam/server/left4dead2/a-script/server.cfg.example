@@ -1,0 +1,12 @@
+hostname "Long walk 2 Wedding"
+hostport 9470
+sv_steamgroup "12345678"
+sv_steamgroup_exclusive 1
+sv_tags "hidden"
+sv_gametypes "coop"
+sv_cheats 1
+sv_voiceenable 0
+sv_allow_lobby_connect_only 0
+sv_region 4
+sv_visiblemaxplayers 4
+sv_consistency 0
