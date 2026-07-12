@@ -3,3 +3,23 @@
 **/.env.*
 !.env.example
 !**/.env.example
+
+# Project-owned Trellis agent instructions and Codex integration.
+!.agents/
+!.agents/skills/
+!.agents/skills/trellis-*/
+!.agents/skills/trellis-*/SKILL.md
+!.codex/
+.codex/*
+!.codex/config.toml
+!.codex/hooks.json
+!.codex/rules/
+.codex/rules/*
+!.codex/rules/default.rules
+!.codex/agents/
+.codex/agents/*
+!.codex/agents/trellis-*.toml
+!.codex/hooks/
+.codex/hooks/*
+!.codex/hooks/inject-workflow-state.py
+!.codex/hooks/session-start.py
