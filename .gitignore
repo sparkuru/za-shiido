@@ -23,3 +23,7 @@
 .codex/hooks/*
 !.codex/hooks/inject-workflow-state.py
 !.codex/hooks/session-start.py
+!.codex/skills/
+.codex/skills/*
+!.codex/skills/ui-ux-pro-max/
+!.codex/skills/ui-ux-pro-max/**

@@ -309,6 +309,12 @@ python3 ./.trellis/scripts/get_context.py --mode phase --step <step>
 
 Goal: classify the request, get task-creation consent when a task is needed, and produce the planning artifacts required before implementation.
 
+### Trellis Plus: UI/UX Pro Max integration
+
+For a task that changes user-visible UI, load the project-local `ui-ux-pro-max` skill and the relevant frontend specs during planning. Generate task-specific UUPM design research before implementation, save the raw result under `{TASK_DIR}/research/ui-ux-pro-max.md`, and record approved choices, responsive behavior, accessibility, and loading, empty, error, disabled, success, keyboard, and reduced-motion states in `{TASK_DIR}/design.md`. Add the approved design artifact and relevant frontend specs to both implement and check context.
+
+Implementation must follow the approved task design decisions. The final check must assess responsive behavior, accessibility, interaction states, performance, and the approved design in addition to lint, type-check, tests, and build results. After verification, promote only stable reusable UI rules into the existing frontend specs; keep task-specific decisions and raw UUPM research in the task directory.
+
 #### 1.0 Create task `[required · once]`
 
 Create the task directory only after task-creation consent. The command sets status to `planning`, writes `task.json`, creates a default `prd.md`, and auto-targets the new task when session identity is available:
