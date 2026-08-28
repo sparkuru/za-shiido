@@ -19,7 +19,3 @@ If you're using Codex or another agent-capable tool, additional project-scoped h
 Managed by Trellis. Edits outside this block are preserved; edits inside may be overwritten by a future `trellis update`.
 
 <!-- TRELLIS:END -->
-
-## Project workflow extensions
-
-For user-facing UI tasks, use the project-local `.codex/skills/ui-ux-pro-max/` skill together with the Trellis planning, implementation, checking, and spec-update flow in `.trellis/workflow.md`.
