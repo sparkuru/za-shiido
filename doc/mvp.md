@@ -1,6 +1,6 @@
 # Nexus / The Seed 架构与 MVP 设计
 
-> 状态：设计草案，尚未实现。本文同时定义长期架构边界与首个 MVP 的可交付范围。RPG Maker 的已验证适配经验归档于 [doc/rpgmaker-lan.md](doc/rpgmaker-lan.md)。
+> 状态：设计草案，尚未实现。本文同时定义长期架构边界与首个 MVP 的可交付范围。RPG Maker 的已验证适配经验归档于 [RPG Maker web-play Seed 文档](../seeds/rpgmaker-web-play/docs/rpgmaker-lan.md)。
 
 ## 1. 定位
 

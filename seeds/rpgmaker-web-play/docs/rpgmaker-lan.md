@@ -1,6 +1,6 @@
 # RPG Maker 局域网网页化：Seed 设计、适配记录与 Nexus 接入
 
-> 本文是 RPG Maker MV/MZ `web-play` Seed 的专属设计与实测记录。Nexus 的社区、Catalog、Seed SDK、Runtime、Gate 与个人进度的通用架构见 [../arch.md](../arch.md)。
+> 本文是 RPG Maker MV/MZ `web-play` Seed 的专属设计与实测记录。Nexus 的社区、Catalog、Seed SDK、Runtime、Gate 与个人进度的通用架构见 [MVP 设计](../../../doc/mvp.md)。
 
 ## Seed 定位与 Nexus 接入
 

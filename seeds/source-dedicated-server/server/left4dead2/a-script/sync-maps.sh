@@ -86,8 +86,7 @@ parse_args "$@"
 work_dir=$(cd -- "$(dirname -- "$0")" && pwd)
 cd "$work_dir"
 
-steam_dir="$(find_path "steam")" ||
-    fail "Could not find parent directory named steam from $work_dir."
+seed_dir="$(cd -- "$work_dir/../../.." && pwd)"
 left4dead2_dir="$(find_path "left4dead2")" ||
     fail "Could not find parent directory named left4dead2 from $work_dir."
 load_env
@@ -97,7 +96,7 @@ load_env
 : "${maps_index_path:?missing maps_index_path in $env_file}"
 
 vpk_search_dir="${vpk_search_dir:-$(dirname -- "$zip_path")}"
-l4d2_helper_path="$steam_dir/helper/l4d2.py"
+l4d2_helper_path="$seed_dir/helper/l4d2.py"
 
 command -v python3 >/dev/null 2>&1 || fail "python3 is not installed or not in PATH."
 [[ -f "$l4d2_helper_path" ]] || fail "L4D2 helper does not exist: $l4d2_helper_path"

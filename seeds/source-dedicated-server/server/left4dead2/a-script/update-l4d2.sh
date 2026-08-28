@@ -40,7 +40,6 @@ load_env() {
 work_dir=$(cd -- "$(dirname -- "$0")" && pwd)
 cd "$work_dir"
 
-steam_dir="$(find_path "steam")"
 left4dead2_dir="$(find_path "left4dead2")"
 load_env
 
